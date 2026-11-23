@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px 60px 30px 60px;
+}
+.header {
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+
+    .head {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      a {
+        font-family: Fira Sans;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 110.00000000000001%;
+        letter-spacing: 0%;
+      }
+
+      p {
+        font-family: Fira Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        letter-spacing: 0%;
+      }
+    }
+
+    .der {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      h5 {
+        color: #a1a1a1;
+        font-family: Fira Sans;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110.00000000000001%;
+        letter-spacing: 0%;
+        text-align: right;
+      }
+    }
+  }
+  .hr {
+    width: 1160px;
+    height: 1px;
+    top: -203px;
+    left: -797px;
+    background: #fec80b;
+
+    margin-top: 30px;
+  }
+  .headerNiv {
+    .aTeg {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      .text {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        button {
+          display: flex;
+          align-items: center;
+          width: 138px;
+          height: 42px;
+          top: -186px;
+          left: -627px;
+          gap: 10px;
+          border-radius: 4px;
+          padding-top: 9px;
+          padding-right: 16px;
+          padding-bottom: 9px;
+          padding-left: 16px;
+          border: none;
+          background-color: #fec80b;
+        }
+        a {
+          color: #000;
+        }
+      }
+    }
+    p {
+      font-family: Fira Sans;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 110.00000000000001%;
+      letter-spacing: 0%;
+      margin-top: 100px;
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 60px;
+
+  .hor {
+    h1 {
+      font-family: Fira Sans;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+    h6 {
+      font-family: Fira Sans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0%;
+      vertical-align: middle;
+    }
+
+    .img {
+      width: 660px;
+      height: 554px;
+      opacity: 1;
+      top: 70px;
+      left: -627px;
+    }
+  }
+  .heroNav {
+    .button {
+      width: 94px;
+      height: 27px;
+      opacity: 1;
+      gap: 10px;
+      padding-top: 6px;
+      padding-right: 12px;
+      padding-bottom: 6px;
+      padding-left: 12px;
+      border-top-right-radius: 8px;
+      background-color: #86d448;
+    }
+    span {
+      color: #a1a1a1;
+    }
+
+    .but {
+      display: flex;
+      gap: 15px;
+      margin-top: 30px;
+
+      .one {
+        display: flex;
+        text-align: center;
+        width: 233px;
+        height: 56px;
+        gap: 10px;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        background-color: #fec80b;
+        border: none;
+      }
+      .two {
+        width: 233px;
+        height: 56px;
+        gap: 10px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: #fec80b;
+      }
+    }
+
+    h4 {
+      font-family: Fira Sans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0%;
+      margin-top: 50px;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+
+  .cardNav {
+    display: flex;
+    align-items: center;
+
+    .yellow {
+      background-color: #fec80b;
+      width: 630px;
+      height: 422px;
+      .yel {
+        margin-left: 40px;
+        h1 {
+          font-family: Fira Sans;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 120%;
+          letter-spacing: 0%;
+          margin-top: 80px;
+        }
+
+        p {
+          font-family: Fira Sans;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 130%;
+          letter-spacing: 0%;
+          margin-top: 30px;
+        }
+        a {
+          font-family: Fira Sans;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 130%;
+          text-decoration: underline;
+          color: #000;
+        }
+      }
+    }
+
+    .black {
+      background-color: #000;
+      color: white;
+      display: flex;
+      gap: 30px;
+      width: 630px;
+      height: 422px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .number {
+        .png {
+          display: flex;
+          gap: 20px;
+          margin-top: 15px;
+          align-items: center;
+
+          .photo {
+            width: 38px;
+            height: 38px;
+            top: 894px;
+            left: 136px;
+          }
+
+          h5 {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0%;
+          }
+        }
+      }
+      .big {
+        width: 280px;
+        height: 280px;
+        top: 837px;
+        left: 542px;
+      }
+    }
+  }
+}
+
+.kpp {
+  h1 {
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  .kp {
+    display: flex;
+    gap: 30px;
+
+    .one {
+      width: 536px;
+      height: 265.466796875px;
+      border-width: 1px;
+    }
+
+    .two {
+      width: 600px;
+      height: 289px;
+    }
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 42px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 9px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    border: none;
+    background-color: #fec80b;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+.footer {
+  background-color: #000;
+  width: 1260px;
+  height: 211px;
+  margin-left: 325px;
+  
+
+  .footerNav {
+    display: flex;
+    justify-content: space-around;
+
+    .bir {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+
+      a{
+        margin-bottom: 15px;
+        color: #a1a1a1;
+      }
+
+      button {
+        width: 184px;
+        height: 44px;
+        gap: 10px;
+        border-radius: 4px;
+        padding-top: 13px;
+        padding-right: 30px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background-color: #fec80b;
+      }
+    }
+
+    .eki{
+      margin-top: 40px;
+    
+      a{
+        color: #a1a1a1;
+      }
+    }
+  }
+}
